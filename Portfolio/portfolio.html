@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!--Main CSS-->
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">MyPortfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="./index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="./about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="./portfolio.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="./service.html">Service</a></li>
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="./contact.html">Contact</a></li>
+                </ul>
+                <form class="d-lg-flex d-none" role="search">
+                    <a class="fillButton" href="./contact.html">Contact Me</a>
+                </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <!--Title-->
+        <section id="title">
+            <div class="container">
+                <div class="row text-center mt-5 mb-5">
+                    <h2>My Portfolio</h2>
+                </div>
+            </div>
+        </section>
+
+        <!--Special Skill-->
+        <section id="specialSkill mt-5 mb-5">
+            <div class="container">
+                <div class="heading">
+                    <h2>Special Skill</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <h3>Communication</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos aperiam voluptate necessitatibus sit consectetur ratione optio inventore nesciunt laborum. Aliquam numquam perspiciatis aut iure velit quae cumque esse, ipsum quam.</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <h3>Communication</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos aperiam voluptate necessitatibus sit consectetur ratione optio inventore nesciunt laborum. Aliquam numquam perspiciatis aut iure velit quae cumque esse, ipsum quam.</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <h3>Communication</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos aperiam voluptate necessitatibus sit consectetur ratione optio inventore nesciunt laborum. Aliquam numquam perspiciatis aut iure velit quae cumque esse, ipsum quam.</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <h3>Communication</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos aperiam voluptate necessitatibus sit consectetur ratione optio inventore nesciunt laborum. Aliquam numquam perspiciatis aut iure velit quae cumque esse, ipsum quam.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Certificate-->
+        <section id="certificate" class="mt-5 mb-5">
+            <div class="container">
+                <div class="heading">
+                    <h2>My Certificate</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="certificateCard">
+                            <img class="img-fluid" src="./Images/CR1.jpg" alt="">
+                            <h4>UI UX Design</h4>
+                            <button type="button" class="fillButton mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">See Certificate</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="certificateCard">
+                            <img class="img-fluid" src="./Images/CR1.jpg" alt="">
+                            <h4>UI UX Design</h4>
+                            <button type="button" class="fillButton mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">See Certificate</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="certificateCard">
+                            <img class="img-fluid" src="./Images/CR1.jpg" alt="">
+                            <h4>UI UX Design</h4>
+                            <button type="button" class="fillButton mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">See Certificate</button>
+                        </div>
+                    </div>
+                    <!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">My Certificate</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img class="img-fluid" src="./Images/CR1.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+                </div>
+            </div>
+        </section>
+
+        <!--Experience-->
+        <section id="experience" class="mt-5 mb-5">
+            <div class="container">
+                <div class="heading">
+                    <h2>Work Experience</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="expCard">
+                            <h3>Company Name</h3>
+                            <h5>25th Jan ~ present</h5>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore repudiandae deserunt molestias, beatae vel quis unde rerum quas eveniet corrupti fugit, fugiat adipisci mollitia repellendus consequuntur impedit facilis itaque quidem.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="expCard">
+                            <h3>Company Name</h3>
+                            <h5>25th Jan ~ present</h5>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore repudiandae deserunt molestias, beatae vel quis unde rerum quas eveniet corrupti fugit, fugiat adipisci mollitia repellendus consequuntur impedit facilis itaque quidem.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-6">
+                    <a href="./index.html">My Portfolio</a>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam asperiores veritatis ullam facilis! Laboriosam cumque quidem quaerat voluptas nesciunt quis, sequi dicta? Natus corrupti perferendis tempora dolore esse? Magnam, eligendi?</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!--Main JS-->
+    <script src="./JS/script.js"></script>
+</body>
+</html>

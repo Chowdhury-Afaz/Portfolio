@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!--Main CSS-->
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">MyPortfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="./index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="./about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="./portfolio.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="./service.html">Service</a></li>
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="./contact.html">Contact</a></li>
+                </ul>
+                <form class="d-lg-flex d-none" role="search">
+                    <a class="fillButton" href="./contact.html">Contact Me</a>
+                </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <!--Herosection-->
+        <section id="hero" class="mt-5 mb-5">
+            <div class="container">
+                <div class="row">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img src="./Images/H1.jpg" class="d-block w-100 img-fluid" alt="H1">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="./Images/H2.jpg" class="d-block w-100" alt="H2">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="./Images/H1.jpg" class="d-block w-100" alt="H3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--About-->
+        <section id="about">
+            <div class="container">
+                <div class="heading">
+                    <h2>About</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, totam reprehenderit! Voluptatum qui laborum illo. Voluptatem nesciunt distinctio exercitationem facilis commodi architecto! Perferendis optio blanditiis velit dicta perspiciatis voluptatum cumque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quaerat dolorem quis eligendi culpa. Commodi magni amet quo eius illum officiis tenetur ab, rem a eaque dolor facere asperiores beatae.</p>
+                        <a class="fillButton mt-4" href="./contact.html">Contact Me</a>
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="img-fluid" src="./Images/A1.jpg" alt="A1">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Career-->
+        <section id="career" class="mt-5 mb-5">
+            <div class="container">
+                <div class="heading">
+                    <h2>Career Mission & Vision</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="careerCard">
+                            <h3>Mission</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, aut cupiditate sequi ducimus molestias laborum optio quisquam libero quidem deserunt, quos quasi minus, placeat aperiam beatae ratione temporibus neque nesciunt.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="careerCard">
+                            <h3>Vision</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, aut cupiditate sequi ducimus molestias laborum optio quisquam libero quidem deserunt, quos quasi minus, placeat aperiam beatae ratione temporibus neque nesciunt.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Service-->
+        <section id="service">
+            <div class="container">
+                <div class="heading">
+                    <h2>Service</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="serviceCard">
+                            <h3>UI UX Design</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, ullam! Debitis quo eum nemo aliquam, aperiam deserunt dolore delectus iure corrupti suscipit non ipsa, repellat est minus ab ut magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta molestiae ab ut atque omnis accusantium vel adipisci! Possimus aperiam tempore modi reprehenderit harum, suscipit ullam corrupti provident atque impedit labore?</p>
+                            <a class="fillButton d-block text-center mt-3" href="#">Book Consultation</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="serviceCard">
+                            <h3>UI UX Design</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, ullam! Debitis quo eum nemo aliquam, aperiam deserunt dolore delectus iure corrupti suscipit non ipsa, repellat est minus ab ut magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta molestiae ab ut atque omnis accusantium vel adipisci! Possimus aperiam tempore modi reprehenderit harum, suscipit ullam corrupti provident atque impedit labore?</p>
+                            <a class="fillButton d-block text-center mt-3" href="#">Book Consultation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Feedback-->
+        <section id="feedback" class="mt-5 mb-5">
+            <div class="container">
+                <div class="heading">
+                    <h2>Client Feedback</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="feedbackCard">
+                            <h3>Name</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto consequatur illum dignissimos ducimus ullam blanditiis veritatis, deleniti animi cum. Porro ut tempore iure magni cupiditate officiis, maxime praesentium saepe id.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="feedbackCard">
+                            <h3>Name</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto consequatur illum dignissimos ducimus ullam blanditiis veritatis, deleniti animi cum. Porro ut tempore iure magni cupiditate officiis, maxime praesentium saepe id.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="feedbackCard">
+                            <h3>Name</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto consequatur illum dignissimos ducimus ullam blanditiis veritatis, deleniti animi cum. Porro ut tempore iure magni cupiditate officiis, maxime praesentium saepe id.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-6">
+                    <a href="./index.html">My Portfolio</a>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam asperiores veritatis ullam facilis! Laboriosam cumque quidem quaerat voluptas nesciunt quis, sequi dicta? Natus corrupti perferendis tempora dolore esse? Magnam, eligendi?</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!--Main JS-->
+    <script src="./JS/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!--Main CSS-->
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">MyPortfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="./index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="./about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="./portfolio.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="./service.html">Service</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="./contact.html">Contact</a></li>
+                </ul>
+                <form class="d-lg-flex d-none" role="search">
+                    <a class="fillButton" href="./contact.html">Contact Me</a>
+                </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <!--Title-->
+        <section id="title">
+            <div class="container">
+                <div class="row text-center mt-5 mb-5">
+                    <h2>Contact Me</h2>
+                </div>
+            </div>
+        </section>
+
+        <!--Contact Form-->
+        <section id="contact" class="mt-5 mb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="map col-lg-6">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d461.1847051856272!2d91.84275571995435!3d22.37334423249165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1777824084115!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="col-lg-6">
+                        <form id="contactForm" novalidate>
+
+                            <!-- Name -->
+                            <label for="name">Enter Name</label> <br>
+                            <input type="text" id="name" name="name" placeholder="e.g. Afaz Chowdhury">
+                            <span class="error" id="nameError"></span>
+                            <br>
+
+                            <!-- Email -->
+                            <label for="email">Enter Email</label> <br>
+                            <input type="email" id="email" name="email" placeholder="e.g. example@gmail.com">
+                            <span class="error" id="emailError"></span>
+                            <br>
+
+                            <!-- Phone -->
+                            <label for="phone">Enter Phone Number</label> <br>
+                            <input type="tel" id="phone" name="phone" placeholder="e.g. 01XXXXXXXXX">
+                            <span class="error" id="phoneError"></span>
+                            <br>
+
+                            <!-- Address -->
+                            <label for="address">Enter Address</label> <br>
+                            <input type="text" id="address" name="address" placeholder="e.g. city, district">
+                            <span class="error" id="addressError"></span>
+                            <br>
+
+                            <!-- Message -->
+                            <label for="message">Message</label> <br>
+                            <textarea id="message" name="message" placeholder="Write what you need..."></textarea>
+                            <span class="error" id="messageError"></span>
+
+                            <br>
+                            <button type="submit" class="fillButton mt-3">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-6">
+                    <a href="./index.html">My Portfolio</a>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam asperiores veritatis ullam facilis! Laboriosam cumque quidem quaerat voluptas nesciunt quis, sequi dicta? Natus corrupti perferendis tempora dolore esse? Magnam, eligendi?</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!--Main JS-->
+    <script src="./JS/script.js"></script>
+</body>
+</html>

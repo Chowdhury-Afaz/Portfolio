@@ -1,0 +1,112 @@
+:root{
+    --primary-color: chocolate;
+}
+
+body{
+    font-family: SpaceGrotesk;
+}
+h1,h2,h3,h4,h5,h6,span,address,p{
+    margin: 0;
+    padding: 0;
+}
+ol, ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.fillButton{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 14px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 10px;
+}
+.strokeButton{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 14px 20px;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+}
+.heading h2{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--primary-color);
+    padding-bottom: 50px;
+    text-align: center;
+}
+#title h2{
+    font-size: 40px;
+    font-weight: 600;
+    padding: 50px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 10px;
+}
+
+/* Navbar */
+.navbar .navbar-brand{
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.navbar .navbar-nav .nav-link{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    padding: 6px 20px;
+    border-bottom: 1px solid transparent;
+    transition: 0.3s;
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:hover{
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+}
+
+/* Career */
+#experience .expCard,
+#feedback .feedbackCard,
+#service .serviceCard,
+#career .careerCard{
+    padding: 20px;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+}
+
+/* Contact */
+#contact form input{
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#contact form textarea{
+    width: 100%;
+    height: 150px;
+    padding: 10px 20px;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+}
+#contact form button{
+    width: 100%;
+    border: none;
+}
+
+/* Footer */
+footer{
+    padding: 50px 0;
+    border-top: 1px solid var(--primary-color);
+}
+footer a{
+    font-size: 48px;
+    font-weight: 600;
+    color: chocolate;
+}
